@@ -10,10 +10,7 @@ namespace WebApi.Models
 
         public class Result
         {
-            public Result()
-            {
-                AddonData = new List<KeyValuePair<string, string>>();
-            }
+
             public bool IsSuccess { get; set; }
 
             public string Message { get; set; }

@@ -12,6 +12,8 @@ namespace WebApi.Controllers
     {
 
         // GET api/Customer
+
+        //api/Customer/Get
         public Result Get()
         {
             return new Result() { IsSuccess = true,Message="Test " };
